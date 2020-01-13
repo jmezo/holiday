@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "jano",
+    "password": "asd",
+    "availableHolidays": {
+    }
+  },
+  {
+    "name": "lakatos",
+    "password": "asd",
+    "availableHolidays": {
+    }
+  },
+  {
+    "name": "kolompar",
+    "password": "asd",
+    "availableHolidays": {
+    }
+  },
+  {
+    "name": "bango",
+    "password": "asd",
+    "availableHolidays": {
+    }
+  }
+]
