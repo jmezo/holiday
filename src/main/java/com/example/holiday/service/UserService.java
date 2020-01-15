@@ -1,5 +1,6 @@
 package com.example.holiday.service;
 
+import com.example.holiday.model.AvailableHolidays;
 import com.example.holiday.model.DTO.UserDTO;
 import com.example.holiday.model.User;
 import com.example.holiday.repository.UserRepository;
@@ -29,6 +30,8 @@ public class UserService {
     }
 
     public void createNew(User user) {
+        AvailableHolidays ah = new AvailableHolidays(user);
+        user.setAvailableHolidays(ah);
         userRepository.save(user);
     }
 
